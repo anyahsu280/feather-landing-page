@@ -9,7 +9,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(181 194 255);
+    background-image: url('../assets/bestbeachpic.jpg');
+    background-size: cover;
     margin: 0;
 }
 
@@ -28,7 +29,19 @@ body {
     width: 100%;
 }
 
+.tile-footer {
+    position: relative;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 46vh;
     width: 26vw;
     max-width: 500px;
@@ -43,8 +56,23 @@ body {
     font-size: 240%;
 }
 
+.tile img {
+    height: 120px;
+    width: 90px;
+    margin-top: 14px;
+}
+
+.tile h5 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    bottom: 0px;
+    margin: 0;
+}
+
 .coming-soon-container {
     height: 50vh;
-    margin-bottom: 100px;
+    margin-bottom: 4%;
     background-color: white;
 }
