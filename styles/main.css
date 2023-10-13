@@ -17,8 +17,9 @@ body {
 .title-prompt {
     font-size: 42px;
     font-weight: 100;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 200px;
+    color: darkslateblue;
 }
 
 .tile-group-container {
@@ -49,17 +50,19 @@ body {
     flex-direction: column;
     align-items: center;
     height: 38vh;
-    width: 22vw;
+    width: 23vw;
     max-width: 500px;
     background-color: white;
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 24px;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .tile p {
     margin: 0;
     font-size: 2.2vmax;
+    color: #374957;
 }
 
 .tile img {
@@ -79,19 +82,27 @@ body {
 
 .coming-soon-container {
     height: 50vh;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .coming-soon-container h1 {
     margin: 0;
-    font-size: 50px;
+    font-size: 58px;
+    font-weight: 400;
+    color: #597bf6
 }
 
 .coming-soon-container img {
     max-width: 40vw;
+}
+
+.tile-heading-container {
+    min-height: 50px;
+    height: 5vmax;
 }
