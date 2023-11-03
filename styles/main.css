@@ -31,29 +31,38 @@ body {
     font-size: 3em;
     font-weight: 500;
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    color: #373d42
+    color: #373d42;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
 }
 
 .prompt-container h3 {
-    font-size: 1.8em;
-    font-weight: 100;
+    font-size: 1.5em;
+    font-weight: 400;
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     color: #373d42;
     margin: 0;
 }
 
-.tile-group-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.tile-group {
+.email-input-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 90%;
+    margin-top: 50px;
+}
+
+.email-input {
+    width: 100%;
+    min-height: 30px;
+    height: 10vh;
+    font-weight: 100;
+    font-size: 1.3em;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 16px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 3px 2px #cccccc;
 }
 
 .tile-footer {
