@@ -17,6 +17,8 @@ body {
     height: 60%;
     margin-top: 20vh;
     margin-bottom: 20vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .prompt-container {
@@ -51,6 +53,7 @@ body {
     align-items: center;
     margin-top: 50px;
     height: 6vw;
+    max-height: 120px;
     position: relative;
 }
 
@@ -93,11 +96,23 @@ body {
     transform: scale(110%);
 }
 
+.email-submit-button:active {
+    filter: contrast(1.3);
+}
+
 .email-submit-button img {
     height: 100%;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.phone-image {
+    height: 514px;
+    width: 258px;
+    position: relative;
+    top: -40px;
+    margin-left: 10vw;
 }
 
 
