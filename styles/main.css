@@ -30,7 +30,7 @@ body {
 }
 
 .prompt-container h1 {
-    font-size: 3em;
+    font-size: 3.7vw;
     font-weight: 500;
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     color: #373d42;
@@ -39,7 +39,7 @@ body {
 }
 
 .prompt-container h3 {
-    font-size: 1.5em;
+    font-size: max(1em, 1.8vw);
     font-weight: 400;
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     color: #373d42;
@@ -71,10 +71,10 @@ body {
     min-height: 30px;
     height: 96%;
     font-weight: 100;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 16px;
-    border-radius: 2vw;
+    padding-left: 20px;
+    border-radius: 3vh;
     border: none;
     box-shadow: 2px 3px 2px #cccccc;
 }
