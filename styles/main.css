@@ -24,8 +24,8 @@ body {
 .prompt-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-left: 18%;
-    margin-top: 40px;
     width: 40%;
 }
 
@@ -34,7 +34,7 @@ body {
     font-weight: 500;
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     color: #373d42;
-    margin-block-start: 0.5em;
+    margin-block-start: 0;
     margin-block-end: 0.5em;
 }
 
@@ -53,15 +53,16 @@ body {
     align-items: center;
     margin-top: 50px;
     height: 6vw;
-    max-height: 10vh;
+    max-height: 9vh;
     position: relative;
 }
 
 .email-input-container {
+    height: 100%;
     width: 80%;
+    max-width: 46vh;
     display: flex;
     flex-direction: row;
-    height: 100%;
     position: relative;
 }
 
