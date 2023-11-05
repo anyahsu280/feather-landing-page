@@ -10,13 +10,17 @@
                     <h1>Current dating apps aren't working.</h1>
                     <h3>Let's start a new flock.</h3>
                     <div class="email-input-wrapper">
-                        <div class="email-input-container">
+                        <div class="email-input-container" id="email-input-container">
                             <input onkeyup="this.value=this.value.replace(/\s/g, '')" id="email-input" class="email-input" type="email" placeholder="Enter e-mail for updates" onfocus="clearDecoration()" spellcheck="false">
                             <button id="submit-button" type="submit" class="email-submit-button" onClick="subscribe()">
                                 <img src="./assets/submit_arrow.png" />
                             </button>
                         </div>
+                        <div id="success-message" style="display: none;" class="success-container">
+                            <h2 class="subscribe-success">Thanks for subscribing!</h2>
+                        </div>
                     </div>
+                    
                 </div>
                 <div>
                     <img class="phone-image" src="./assets/feather_iPhone.png">

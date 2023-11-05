@@ -62,7 +62,7 @@ body {
 
 .email-input-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -139,6 +139,21 @@ body {
     animation-duration: 0.5s;
     transform-origin:50% 50%;
     animation-iteration-count: 1;
+}
+
+.success-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+}
+
+.subscribe-success {
+    font-size: 0.8em;
+    font-weight: 400;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
