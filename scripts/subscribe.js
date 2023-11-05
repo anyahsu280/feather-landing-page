@@ -10,6 +10,7 @@ function subscribe() {
     } else {
         fetch("https://us-east4-complete-galaxy-404116.cloudfunctions.net/mailing-list-subscribe", {
             method: "POST",
+            headers: {"Content-Type": "application/json"},
             body: JSON.stringify({email: email})
         });
     }
