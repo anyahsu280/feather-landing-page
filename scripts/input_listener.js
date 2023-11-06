@@ -4,4 +4,4 @@ emailInput.addEventListener('blur', function ( event ) {
     const original = emailInput.value;
     const sanitizedValue = original.replace(/\s/g, '');
     emailInput.value = sanitizedValue;
-    });
+});
